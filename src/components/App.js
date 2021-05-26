@@ -30,8 +30,8 @@ function App() {
   function handleAddPlaceClick(){
     setAddPlacePopupOpen(true)
   }
-  function handleCardClick() {
-    setSelectedCard(true);
+  function handleCardClick(card) {
+    setSelectedCard(card);
   }
   return (
     <>
